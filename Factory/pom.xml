@@ -9,6 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Singleton</artifactId>
+    <artifactId>Factory</artifactId>
+    <dependencies>
+
+    </dependencies>
+
 
 </project>
