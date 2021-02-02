@@ -1,3 +1,5 @@
 /Singleton/target/
 /.idea/
 /Factory/target/
+/Builder/target/
+/AbstractFactory/target/

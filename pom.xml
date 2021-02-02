@@ -11,6 +11,9 @@
     <modules>
         <module>Singleton</module>
         <module>Factory</module>
+        <module>AbstractFactory</module>
+        <module>Builder</module>
+        <module>Adapter</module>
     </modules>
 
     <properties>
@@ -20,14 +23,21 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.boot.version>2.3.0.RELEASE</spring.boot.version>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
+        <lombok.version>1.18.12</lombok.version>
+        <junit.jupiter.version>5.6.2</junit.jupiter.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>RELEASE</version>
             <scope>test</scope>
+            <version>${junit.jupiter.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>compile</scope>
+            <version>${lombok.version}</version>
         </dependency>
     </dependencies>
 </project>
